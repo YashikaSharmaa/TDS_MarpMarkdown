@@ -10,6 +10,8 @@ class: lead
 Custom Marp Theme
 Put this block at the top of the markdown file
 -->
+<!-- _backgroundColor: #123456 -->
+
 <style>
 section {
   font-family: "Segoe UI", sans-serif;
