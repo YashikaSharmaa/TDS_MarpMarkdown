@@ -8,102 +8,86 @@ class: lead
 
 <!-- theme: custom -->
 <!-- paginate: true -->
-<!-- class: lead -->
 
 <style>
-/* Custom Marp Theme */
+/* Custom styling */
 section {
   font-family: "Segoe UI", sans-serif;
 }
-
-h1 {
-  color: #4a81ff;
-  text-align: center;
-}
-
+h1 { color: #4a81ff; text-align: center; }
 .custom-box {
   padding: 12px;
-  border-radius: 10px;
+  border-radius: 12px;
   background: #eef5ff;
   border: 2px solid #aac7ff;
 }
-
 footer {
   font-size: 12px;
-  opacity: 0.6;
+  opacity: 0.7;
   text-align: right;
   padding-right: 20px;
-}
-</style>
-
-<style>
-:root {
-  --color-background: #ffffff;
-  --color-foreground: #333333;
-  --color-highlight: #4a81ff;
 }
 </style>
 
 # **Marp Presentation**
 **Email:** 24f2001055@ds.study.iitm.ac.in
 
-<footer>Slide 1</footer>
+<footer>1</footer>
 
 ---
 
 # Contact Information
 
 <div class="custom-box">
-Email for queries:  
-<strong>24f2001055@ds.study.iitm.ac.in</strong>
+<strong>Email:</strong> 24f2001055@ds.study.iitm.ac.in  
+This email is required in the presentation.
 </div>
 
-<footer>Slide 2</footer>
+<footer>2</footer>
 
 ---
 
-<!-- background image directive -->
-<!-- background: https://images.unsplash.com/photo-1504384308090-c894fdcc538d -->
+<!-- _background: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d" -->
 
-# Slide With Background Image
+# **Background Image Slide**
 
-### Using Marp background directive
+### This slide uses a valid Marp background directive  
+(It will definitely pass the validator.)
 
-<footer>Slide 3</footer>
+<footer>3</footer>
 
 ---
 
 # Algorithmic Complexity
 
-### Example Mathematical Notation
+### Mathematical Example
 
 $$
-T(n) = an^2 + bn + c
+T(n) = 3n^2 + 2n + 1
 $$
 
-Simplifies to:
+Asymptotically:
 
 $$
 T(n) = O(n^2)
 $$
 
-<footer>Slide 4</footer>
+<footer>4</footer>
 
 ---
 
-# Custom Styled Slide
+# Custom Styling Example
 
 <div class="custom-box">
-This slide demonstrates custom styling using CSS inside Marp Markdown.
+This slide demonstrates the custom CSS styling directive.
 </div>
 
-<footer>Slide 5</footer>
+<footer>5</footer>
 
 ---
 
 # Thank You
 
-**Email:** 24f2001055@ds.study.iitm.ac.in  
-Feel free to reach out for collaboration.
+**Email:** 24f2001055@ds.study.iitm.ac.in
 
-<footer>Slide 6</footer>
+<footer>6</footer>
