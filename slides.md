@@ -1,95 +1,111 @@
-<!--
+---
 marp: true
-theme: custom
+title: "Marp Presentation Demo"
 paginate: true
-footer: "Product Documentation | 24f2001055@ds.study.iitm.ac.in"
--->
+theme: custom
+class: lead
+---
 
+<!--
+Custom Marp Theme
+Put this block at the top of the markdown file
+-->
 <style>
-/* @theme custom */
 section {
-  background-color: #fdfdfd;
-  color: #222;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
-h1, h2, h3 {
-  color: #004080;
+
+h1 {
+  color: #4a81ff;
+  text-align: center;
 }
+
+.custom-box {
+  padding: 12px;
+  border-radius: 10px;
+  background: #eef5ff;
+  border: 2px solid #aac7ff;
+}
+
 footer {
-  font-size: 0.8em;
-  color: #666;
+  font-size: 12px;
+  opacity: 0.6;
+  text-align: right;
+  padding-right: 20px;
 }
 </style>
 
-# Product Documentation
+<!-- Custom theme definition -->
+<style>
+:root {
+  --color-background: #ffffff;
+  --color-foreground: #333333;
+  --color-highlight: #4a81ff;
+}
+</style>
 
-**Author:** Technical Writer  
-**Email:** 24f2001055@ds.study.iitm.ac.in
+# **Marp Presentation**
 
----
+### **Created by:**  
+**24f2001055@ds.study.iitm.ac.in**
 
-# Introduction
-
-Welcome to the product documentation presentation.  
-This deck demonstrates how Marp can be used for:
-
-- Version-controlled documentation
-- Multi-format export (HTML, PDF, PPTX)
-- Custom themes and styling
-
----
-
-# Features
-
-- :sparkles: **Lightweight Markdown-based authoring**
-- :memo: **Easily maintainable in GitHub**
-- :repeat: **Reusable custom themes**
+<footer>Slide 1</footer>
 
 ---
 
-# Background Example
+# Contact Information
 
-![bg](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80)
+<div class="custom-box">
+Email for queries:  
+<strong>24f2001055@ds.study.iitm.ac.in</strong>
+</div>
 
-## Slide with Background Image
+<footer>Slide 2</footer>
 
-This slide demonstrates how to use a background image.
+---
+
+<!-- Slide with background image -->
+<!-- Replace with your own image if needed -->
+![bg](https://images.unsplash.com/photo-1504384308090-c894fdcc538d)
+
+# Slide With Background Image
+
+### Example full-bleed background
+
+<footer>Slide 3</footer>
 
 ---
 
 # Algorithmic Complexity
 
-We can include equations using KaTeX / MathJax:
+### Time Complexity Formula Example
 
 $$
-T(n) = O(n \\log n)
+T(n) = an^2 + bn + c
 $$
 
-Used for algorithms like **Merge Sort** and **Quick Sort** (average case).
+Asymptotically:
+
+$$
+T(n) = O(n^2)
+$$
+
+<footer>Slide 4</footer>
 
 ---
 
 # Custom Styling Example
 
-<style scoped>
-section {
-  background-color: #f0faff;
-  border: 2px solid #004080;
-  border-radius: 12px;
-  padding: 20px;
-}
-</style>
+<div class="custom-box">
+This slide demonstrates **custom box styling** using Marp directives.
+</div>
 
-## Styled Slide
-
-This slide uses **scoped custom CSS** to adjust background and borders.
+<footer>Slide 5</footer>
 
 ---
 
-# Conclusion
+# Thank You
 
-- Documentation in **Marp Markdown** is portable & maintainable.
-- Easy export to **slides, PDFs, and docs**.
-- Contact: **24f2001055@ds.study.iitm.ac.in**
+**Email:** 24f2001055@ds.study.iitm.ac.in
 
----
+<footer>Slide 6</footer>
