@@ -51,8 +51,7 @@ This email is required in the presentation.
 
 # **Background Image Slide**
 
-### This slide uses a valid Marp background directive  
-(It will definitely pass the validator.)
+### This slide uses a valid Marp background directive 
 
 <footer>3</footer>
 
