@@ -6,13 +6,12 @@ theme: custom
 class: lead
 ---
 
-<!--
-Custom Marp Theme
-Put this block at the top of the markdown file
--->
-<!-- _backgroundColor: #123456 -->
+<!-- theme: custom -->
+<!-- paginate: true -->
+<!-- class: lead -->
 
 <style>
+/* Custom Marp Theme */
 section {
   font-family: "Segoe UI", sans-serif;
 }
@@ -37,7 +36,6 @@ footer {
 }
 </style>
 
-<!-- Custom theme definition -->
 <style>
 :root {
   --color-background: #ffffff;
@@ -47,9 +45,7 @@ footer {
 </style>
 
 # **Marp Presentation**
-
-### **Created by:**  
-**24f2001055@ds.study.iitm.ac.in**
+**Email:** 24f2001055@ds.study.iitm.ac.in
 
 <footer>Slide 1</footer>
 
@@ -66,13 +62,12 @@ Email for queries:
 
 ---
 
-<!-- Slide with background image -->
-<!-- Replace with your own image if needed -->
-![bg](https://images.unsplash.com/photo-1504384308090-c894fdcc538d)
+<!-- background image directive -->
+<!-- background: https://images.unsplash.com/photo-1504384308090-c894fdcc538d -->
 
 # Slide With Background Image
 
-### Example full-bleed background
+### Using Marp background directive
 
 <footer>Slide 3</footer>
 
@@ -80,13 +75,13 @@ Email for queries:
 
 # Algorithmic Complexity
 
-### Time Complexity Formula Example
+### Example Mathematical Notation
 
 $$
 T(n) = an^2 + bn + c
 $$
 
-Asymptotically:
+Simplifies to:
 
 $$
 T(n) = O(n^2)
@@ -96,10 +91,10 @@ $$
 
 ---
 
-# Custom Styling Example
+# Custom Styled Slide
 
 <div class="custom-box">
-This slide demonstrates **custom box styling** using Marp directives.
+This slide demonstrates custom styling using CSS inside Marp Markdown.
 </div>
 
 <footer>Slide 5</footer>
@@ -108,6 +103,7 @@ This slide demonstrates **custom box styling** using Marp directives.
 
 # Thank You
 
-**Email:** 24f2001055@ds.study.iitm.ac.in
+**Email:** 24f2001055@ds.study.iitm.ac.in  
+Feel free to reach out for collaboration.
 
 <footer>Slide 6</footer>
